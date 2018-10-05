@@ -6,5 +6,8 @@
  */
 
 module.exports = {
-  attributes: {}
+  attributes: {
+    displayName:  { type: 'string', required: true },
+    message:      { type: 'string', required: true },
+  },
 };
