@@ -36,6 +36,10 @@ module.exports.routes = {
   //   view: 'homepage'
   // }
 
+  'post /postreview': 'ReviewsController.addReview',
+  'get /getreviews': 'ReviewsController.getReviews'
+  
+
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
